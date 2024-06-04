@@ -1,0 +1,92 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-image: url(./image/bg_denteDeLeao.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    color: floralwhite;
+}
+
+.land_main{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+.left-section, .right-section{
+
+    height: 70%;
+    width: 30%;
+
+    background-color: rgba(112, 112, 112, 0.41);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+
+    color: white;
+    
+}
+
+.right-section form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3px;
+}
+
+.right-section form label{
+    margin: 5px 0 5px;
+}
+
+.right-section form input{
+    padding: 5px;
+    
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.right-section form button{
+    width: 80%;
+    height: 10%;
+    background-color: rgba(169,214,229,0.5);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    transition:0.5s
+}
+
+.right-section form button:hover{
+    background-color: #0056b3;
+}
+
+
+
