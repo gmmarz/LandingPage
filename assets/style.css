@@ -67,6 +67,7 @@ header{
 
 .right-section form input{
     padding: 5px;
+    width: 350px;
     
     margin-bottom: 5px;
     border: 1px solid #ccc;
@@ -87,6 +88,22 @@ header{
 .right-section form button:hover{
     background-color: #0056b3;
 }
+
+.card_inf_cls{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.carousel-caption-below{
+    position: static;
+    padding-top: 10px;
+    text-align: center;
+}
+
 
 
 
